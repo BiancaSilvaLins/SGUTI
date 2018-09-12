@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Avaliação Clínica</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            body {
+                margin:0;
+                padding:100;
+                background:#6495ED;
+                text-align:center; 	
+            }
+            #tudo {
+                width: 720px;
+                margin:0 auto;			
+                padding: 20px;
+                text-align:left;
+            }
+            #conteudo {
+                margin: 100;
+                padding: 10px;
+                background-color: #ADD8E6;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div id="tudo">
+            <div id="conteudo">
+                <div><h1>Avaliação Clínica</h1></div>
+                <form role="form" action="" method="post">
+
+                    <label for="id_name">Código &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Nome 
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Data de Nascimento</label><br>
+                    <input type="text" name="cod" id="id_cod">&nbsp&nbsp
+                    <input type="text" name="nome" maxlength="35" size="45" id="id_name">
+                    <input id="date" type="date" maxlength="8" size="8" placeholder="__/__/____" ><br><br>
+
+
+
+                    <label for="id_name">Médico Responsável &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        &nbsp&nbsp&nbsp 
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp CRM</label><br>
+
+                    <input type="text" name="nome" maxlength="35" size="45" id="id_name">&nbsp&nbsp
+                    <input type="text" name="crm" maxlength="5" size="5" id="id_crm"><br><br> 
+
+                    <label for="id_desc">Descrição</label><br>
+
+                    <textarea id="msg" rows="20" cols="70" maxlength="5000"></textarea>
+
+
+
+
+                    <br><br><br><br>
+                    <script type="text/javascript">
+                        function Nova()
+                        {
+                            location.href = " index.html"
+                        }
+                    </script>
+
+
+                    <input type="submit" class="btn btn-default" value="Gravar">
+                    <input type="reset" class="btn btn-default" value="Limpar">
+                    <input type="button" value="cancelar" onClick="Nova()">
+
+
+
+
+
+
+
+                </form>
+                </body>
+                </html>

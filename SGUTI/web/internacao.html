@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Internação na UTI</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+body {
+margin:0;
+padding:100;
+background:#6495ED;
+text-align:center; 	
+	}
+#tudo {
+width: 720px;
+margin:0 auto;			
+padding: 20px;
+text-align:left;
+	}
+#conteudo {
+margin: 100;
+padding: 10px;
+background-color: #ADD8E6;
+
+	}
+</style>
+    </head>
+    <body>
+        <div id="tudo">
+            <div id="conteudo">
+                <div><h1>Internação na UTI</h1></div>
+        <form role="form" action="" method="post">
+            
+            
+            <label for="id_name">Código &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Nome 
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Data de Nascimento</label><br>
+            <input type="text" name="cod" id="id_cod">&nbsp&nbsp
+            <input type="text" name="nome" maxlength="35" size="45" id="id_name">
+              <input id="date" type="date" maxlength="8" size="8" placeholder="__/__/____" ><br><br>
+              
+              <label for="id_cpf">CPF</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              &nbsp&nbsp&nbsp
+              <label for="id_sexo">Sexo:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              <label for="id_raca">Raça/Cor:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              <label for="id_namemae">Nome da Mãe</label><br>
+              
+              <input type="text" maxlength="11" size="11" id="cpf" placeholder="___.___.___-__">
+              
+              <select name="sexo">
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+              </select> &nbsp&nbsp&nbsp&nbsp
+     
+              <select name="raca">
+                <option value="Branco(a)">Branco(a)</option>
+                <option value="Pardo(a)">Pardo(a)</option>
+                <option value="Preto(a)">Preto(a)</option>
+                <option value="Amarelo(a)">Amarelo(a)</option>
+                <option value="Indigena">Indigena</option>
+                <option value="Não sei">Não sei</option>
+              </select> &nbsp&nbsp&nbsp&nbsp
+              <input type="text" name="nome" maxlength="45" size="45" id="id_namemae"><br><br>
+              
+              
+            
+            
+            
+            <label for="id_cep">CEP</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <label for="id_endereco">Endereço &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                &nbsp&nbsp&nbsp &nbsp  Número</label><br>
+            
+            
+              <input type="text" maxlength="8" size="8" id="cep" placeholder="_____-___">
+              <input type="text" name="endereco" maxlength="30" size="30" id="id_endereco">&nbsp&nbsp
+              <input type="text" maxlength="4" size="4" name="numero" id="numero"><br><br>
+              
+             
+             <label for="id_cidade">Cidade</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+             &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <label for="id_bairro">Bairro</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              <label for="id_estado">Estado</label><br>
+              
+              
+              <input type="text" name="cidade" id="id_cidade">&nbsp&nbsp&nbsp&nbsp
+              <input type="text" maxlength="30" size="30" id="bairro">&nbsp&nbsp&nbsp&nbsp
+              <select name="estado">
+                <option value="selecionarEstado">Selecionar</option>
+                <option value="acre">Acre</option>
+                <option value="alagoas">Alagoas</option>
+                <option value="amapa">Amapá</option>
+                <option value="amazonas">Amazonas</option>
+                <option value="bahia">Bahia</option>
+                <option value="ceará">Ceará</option>
+                <option value="distritoFederal">Distrito Federal</option>
+                <option value="espiritoSantos">Espírito Santos</option>
+                <option value="goias">Goiás</option>
+                <option value="maranhao">Maranhão</option>
+                <option value="matoGrosso">Mato Grosso</option>
+                <option value="matoGrossoDoSul">Mato Grosso do Sul</option>
+                <option value="minasGerais">Minas Gerais</option>
+                <option value="para">Pará</option>
+                <option value="paraiba">Paraíba</option>
+                <option value="parana">Paraná</option>
+                <option value="pernambuco">Pernambuco</option>
+                <option value="piaui">Piauí</option>
+                <option value="rioDeJaneiro">Rio De Janeiro</option>
+                <option value="rioGrandeDoNorte">Rio Grande do Norte</option>
+                <option value="rioGrandeDoSul">Rio Grande do sul</option>
+                <option value="rondonia">Rondônia</option>
+                <option value="roraima">Roraima</option>
+                <option value="santaCatarina">Santa Catarina</option>
+                <option value="saoPaulo">São Paulo</option>
+                <option value="sergipe">Sergipe</option>
+                <option value="tocantins">Tocantins</option>
+              </select><br><br>
+
+              <label for="id_fone_residencia">Telefone Residêncial</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              <label for="id_fone_celular">&nbsp&nbsp&nbsp Telefone Celular</label><br>
+
+              <input type="text" maxlength="10" size="10" id="fone_residencia" placeholder="(  )____-____">&nbsp&nbsp&nbsp&nbsp&nbsp
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              <input type="text" maxlength="11" size="11" id="fone_celular" placeholder="(  )_ ____-____"><br><br>
+              
+              
+              
+              <label for="id_rg">Carteira de Identidade</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              <label for="id_orgao">Órgão Emissor</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              <label for="id_uf_emissor">UF Emissor</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              <label for="id_data_emissao">Data de Expedição</label><br>
+              
+              <input id="id_rg" type="text" maxlength="8" size="8">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              <input id="id_orgao" type="text" maxlength="6" size="6">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              <select name="uf_emissor">
+                <option value="selecionarUf">Selecionar</option>
+                <option value="acre">AC</option>
+                <option value="alagoas">AL</option>
+                <option value="amapa">AP</option>
+                <option value="amazonas">AM</option>
+                <option value="bahia">BA</option>
+                <option value="ceará">CA</option>
+                <option value="distritoFederal">DF</option>
+                <option value="espiritoSantos">ES</option>
+                <option value="goias">GO</option>
+                <option value="maranhao">MA</option>
+                <option value="matoGrosso">MT</option>
+                <option value="matoGrossoDoSul">MS</option>
+                <option value="minasGerais">MG</option>
+                <option value="para">PA</option>
+                <option value="paraiba">PB</option>
+                <option value="parana">PR</option>
+                <option value="pernambuco">PE</option>
+                <option value="piaui">PI</option>
+                <option value="rioDeJaneiro">RJ</option>
+                <option value="rioGrandeDoNorte">RN</option>
+                <option value="rioGrandeDoSul">RS</option>
+                <option value="rondonia">RO</option>
+                <option value="roraima">RR</option>
+                <option value="santaCatarina">SC</option>
+                <option value="saoPaulo">SP</option>
+                <option value="sergipe">SE</option>
+                <option value="tocantins">TO</option>
+              </select>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              <input id="date" type="date" maxlength="8" size="8" placeholder="__/__/____"><br><br>
+              
+              
+              
+              <label for="internacao">Tipo da Internação</label><br>           
+              Internação <input type="radio" name="internacao" value="internacao" checked>  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              Transferência<input type="radio" name="internacao" value="transferencia"> <br><br>
+              
+              
+              
+              <label for="id_clinica_internacao">Clínica</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              <label for="id_unidade_internacao">Unidade de Internação</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              <label for="id_data_internacao">Data da Internação</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              <label for="id_med_resp">Médico Responsável</label><br>
+              
+              
+              
+              <select name="clinica">
+                <option value="cardio">Cardiologia</option>
+                <option value="pediatria">Pediatria</option>
+                <option value="clinicaGeral">Clínica Geral</option>
+                <option value="obstetricia">Obstetrícia</option>
+              </select>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              
+              <select name="unidade">
+                <option value="hemodinamica">UTI Hemodinâmica</option>
+                <option value="pediatrica">UTI Pediatrica</option>
+                <option value="clinica">UTI Clínica</option>
+                <option value="obstetrica">UTI Obstétrica</option>
+                <option value="transplante">UTI de Transplante</option>
+              </select>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              
+              
+              <input id="date" type="date" maxlength="8" size="8" placeholder="__/__/____">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              
+              <select name="medico">
+                <option value="allineHoffman">Alline Hoffman</option>
+                <option value="ruanAndrade">Ruan Andrade</option>
+                <option value="biancaLins">Bianca Lins</option>
+                <option value="ricardoQueiroz">Ricardo Queiroz</option>
+                <option value="edwirgesFeitosa">Edwirges Feitosa</option>
+              </select>
+              
+              
+              
+            <br><br><br><br>
+            <input type="submit" class="btn btn-default" value="Gravar">
+            <input type="reset" class="btn btn-default" value="Limpar">
+            
+          </form>
+                
+                
+                
+                <script type="text/javascript">
+                    $("#cpf").mask("999.999.999-99");
+                     $("#cep").mask("99999-999");
+                </script>
+        </div>
+            </div>
+    </body>
+</html>
